@@ -1,0 +1,24 @@
+name = "testfreepdl"
+defaultTargets = ["PdlTestFree"]
+lintDriver = "batteries/runLinter"
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+weak.linter.mathlibStandardSet = true
+weak.linter.flexible = false  # maybe someday enable this
+# autoImplicit = false  # maybe someday enable this
+weak.linter.style.header = false # maybe someday enable this
+
+[[require]]
+name = "lean4-pdl"
+git = "https://github.com/m4lvin/lean4-pdl.git"
+rev = "68802f94e80c86cec9103f44fe588f844cb76363"
+
+[[require]]
+name = "verso"
+git = "https://github.com/leanprover/verso"
+rev = "4796469a6cd66c1f778a4b22063a7dfd01a4ae08"
+# TODO: replace with v4.37.0 when it is out
+
+[[lean_lib]]
+name = "PdlTestFree"

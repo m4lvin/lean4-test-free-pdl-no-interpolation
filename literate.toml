@@ -1,0 +1,8 @@
+
+order = [ "PdlTestFree.Basic"
+        , "PdlTestFree.NoInterpolation"
+        , "PdlTestFree.Paths"
+        , "PdlTestFree.SemiLinear"
+        , "PdlTestFree.WithTest" ]
+
+docstrings_as_text = true
