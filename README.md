@@ -5,6 +5,9 @@ We prove that
 **without tests** does not have the
 [Craig Interpolation](https://en.wikipedia.org/wiki/Craig_interpolation) property.
 
-(paper link to be added)
-
 Verso documentation: https://malv.in/2026/test-free-pdl-no-interpolation/
+
+This repository accompanies the preprint at <https://arxiv.org/abs/2611.16759>.
+
+For prompts and LLM output used for this project,
+see also <https://doi.org/10.5281/zenodo.23987961>.
